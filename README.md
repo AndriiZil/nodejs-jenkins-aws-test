@@ -7,4 +7,5 @@
 * Permissions
 ```
     chmod +x script/test
+    chmod +x script/deploy
 ```
