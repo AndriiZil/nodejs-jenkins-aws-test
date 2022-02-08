@@ -1,4 +1,5 @@
 #!/bin/sh
+
 ssh ubuntu@3.67.76.173 <<EOF
     cd ~/nodejs-jenkins-aws-test
     git pull origin master
