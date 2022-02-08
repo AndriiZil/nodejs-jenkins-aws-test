@@ -1,6 +1,6 @@
 #!/bin/sh
-ssh ubuntu@NODE.APP.SERVER.IP <<EOF
-    cd ~/node-app
+ssh ubuntu@172-31-28-102 <<EOF
+    cd ~/nodejs-jenkins-aws-test
     git pull origin master
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
     . ~/.nvm/nvm.sh
